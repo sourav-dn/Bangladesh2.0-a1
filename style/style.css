@@ -112,6 +112,7 @@ body{
     background-repeat: no-repeat;
     background-position: top left;  
     padding: 20px;
+    border-radius: 16px;
 }
 .name-title h4{
     margin-bottom: 0;
@@ -119,4 +120,79 @@ body{
 .name-title p{
     margin-top: 0;
     font-style: normal;
+}
+
+
+.box1{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: flex-start;
+    margin-top: 48px;
+    align-items: center;
+    background-color: white;
+    text-align: justify;
+    gap: 32px;
+    border-radius: 24px;
+}
+.box1-right{
+    padding: 56px 48px 56px 32px;
+}
+.box1-left img{
+    width: 350px;
+    height: 250px;
+    margin-left: 48px;
+    margin-right: 32px;
+    border-radius: 24px;
+}
+.box-btn{
+    color: white;
+    background-color: #006A50;
+    padding: 13px 20px 13px 20px;
+    border-radius: 8px;
+}
+
+.box2{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 48px;
+    align-items: center;
+    background-color: white;
+    text-align: justify;
+    gap: 32px;
+    border-radius: 24px;
+}
+.box2-left{
+    padding: 56px 32px 56px 48px;
+}
+.box2-right img{
+    width: 350px;
+    height: 250px;
+    margin-left: 48px;
+    margin-right: 32px;
+    border-radius: 24px;
+}
+.box3{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: flex-start;
+    margin-top: 48px;
+    align-items: center;
+    background-color: white;
+    text-align: justify;
+    gap: 32px;
+    border-radius: 24px;
+}
+.box3-right{
+    padding: 56px 48px 56px 32px;
+}
+.box3-left img{
+    width: 350px;
+    height: 250px;
+    margin-left: 48px;
+    margin-right: 32px;
+    border-radius: 24px;
 }
