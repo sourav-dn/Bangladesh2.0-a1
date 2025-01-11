@@ -1,25 +1,23 @@
-*{
+
 .open-sans-<uniquifier> {
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
-}
+
 body{
     margin: auto;
     width: 1280px;
     background-color: #F1F1F3;
 }
 .banner-container{
-    opacity: 100%;
+    
     width: 100%;
     text-align: left;
     background-color: #C6E4D6 ;
-    display: flex;
-    /* gap: 64px; */
+    display: flex; 
     align-items: center;
     justify-content: space-around;
     padding: 80px 40px 80px 40px;
@@ -196,3 +194,63 @@ body{
     margin-right: 32px;
     border-radius: 24px;
 }
+.text-center{
+    text-align: center;
+    padding: 20px;
+}
+.donet-card{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card-taka{
+    padding: 24px;
+    background-color: white;
+    padding: 20px;
+    height: 50px;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.card-taka2{
+    border: #C6E4D6;
+    background-color: #C6E4D6;
+    align-items: center;
+    
+}
+
+.dt-container{
+    width: 100%;
+    margin-top: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    
+    
+}
+.input-field{
+    width: 70%;
+    padding: 10px 16px;
+}
+.input-field::placeholder{
+    color: #aaa;
+    text-align: center;
+    
+}
+.donet-for-bd >.box-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.box-btn{
+    background-color: #006644;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
