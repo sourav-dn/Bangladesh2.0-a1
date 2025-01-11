@@ -224,7 +224,14 @@ body{
     flex-direction: column;
     padding: 32px;
     
-    
+}
+.dt-container input[type=text]{
+    width: 800px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 32px 124px 32px 124px;
 }
 .input-field{
     width: 70%;
@@ -274,4 +281,8 @@ body{
 }
 .footer-content p{
    color:#1d856b ; 
+}
+.footer-note{
+    font-size: 14px;
+    color: #1d856b;
 }
