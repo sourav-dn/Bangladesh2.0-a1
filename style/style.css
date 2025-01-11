@@ -22,6 +22,11 @@ body{
     background-color: white;
     border: 1px solid #006A50;
     font-weight: 18px;
+    
+}
+.sign:hover{
+    background-color: rgb(76, 133, 76);
+    color: white;
 }
 
 .banner-container{
@@ -53,7 +58,9 @@ body{
     border-radius: 8px;
     color: white;
 }
-
+.explore:hover{
+    color: rgb(143, 201, 143);
+}
 .pillar{
     margin: 80px 0 0 0;
 }
@@ -88,6 +95,21 @@ body{
     border-radius: 16px;
     margin: 30px 0 80px 0;
 }
+.innovation-card {
+    background-color: #cbdef8;
+    border-radius: 16px;
+    padding: 20px;
+}
+.Sustainability-card{
+    background-color: #a8e7cb;
+    border-radius: 16px;
+    padding: 20px;
+}
+.Infrastructure-card{
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 20px;
+}
 .btn-l1{
     background-color: #5490F5;
     padding: 10px 20px 10px 20px;
@@ -108,6 +130,15 @@ body{
     color: white;
     border-radius: 8px;
     border-color: #FFC239;
+}
+.btn-l1:hover {
+    background-color: rgb(143, 201, 143);
+}
+.btn-l2:hover{
+    background-color: rgb(143, 201, 143);
+}
+.btn-l3:hover{
+    background-color: rgb(143, 201, 143);
 }
 .p-vision{
     font-style: normal;
@@ -159,10 +190,12 @@ body{
     padding: 13px 20px 13px 20px;
     border-radius: 8px;
 }
-
+.box-btn:hover{
+    color: rgb(143, 201, 143);
+}
 .box2{
     display: flex;
-    width: 100%;
+    width: 1280px;
     margin: 0 auto;
     justify-content: space-around;
     margin-top: 48px;
@@ -206,20 +239,28 @@ body{
 }
 .text-center{
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
+}
+.section6-title .text-center{
+    margin-bottom: 14px;
 }
 .donet-card{
     display: flex;
-    justify-content: space-evenly;
-
+    justify-content: center;
+    gap: 24px;
 }
 .card-taka{
-    padding: 24px;
+    padding: 30px;
     background-color: white;
-    padding: 20px;
     height: 50px;
     border-radius: 16px;
-    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.card-taka:hover {
+    background-color: rgb(143, 201, 143);
 }
 .card-taka2{
     border: #C6E4D6;
@@ -237,13 +278,16 @@ body{
     padding: 32px;
     
 }
+.taka-btn:hover{
+    color: rgb(143, 201, 143);
+}
 .dt-container input[type=text]{
     width: 800px;
     padding: 10px 15px;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 20px 124px 20px 160px;
+    margin: 5px 124px 5px 210px;
 }
 .input-field{
     width: 70%;
@@ -280,7 +324,7 @@ body{
 }
 .sub-form input[type="email"]{
     width: 500px;
-    padding: 10px 15px;
+    padding: 12px 15px;
     
 }
 .sub-form button[type="submit"]{
@@ -289,13 +333,25 @@ body{
     padding: 10px 15px;
     border-radius: 8px;
     width: 0 auto;
-    margin: 0;
+    margin-left: -20px;
     font-size: 18px;
 }
+.sub-form button:hover{
+    color: rgb(143, 201, 143);
+}
 .footer-content p{
-   color:#1d856b ; 
+   color:#1d856b ;
+    
 }
 .footer-note{
     font-size: 14px;
     color: #1d856b;
+}
+.taka-btn{
+    color: white;
+    background-color: #006A50;
+    padding: 13px 20px 13px 20px;
+    border-radius: 8px;
+    margin: 10px 564px 0px 564px;
+    
 }
