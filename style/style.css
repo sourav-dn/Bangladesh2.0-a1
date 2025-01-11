@@ -261,7 +261,6 @@ body{
 }
 .text-center{
     text-align: center;
-    /* padding: 20px; */
 }
 .section6-title .text-center{
     margin-bottom: 14px;
@@ -287,8 +286,7 @@ body{
 .card-taka2{
     border: #C6E4D6;
     background-color: #C6E4D6;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .dt-container{
@@ -297,8 +295,7 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding: 32px;
-    
+    padding: 32px;   
 }
 .taka-btn:hover{
     color: rgb(143, 201, 143);
