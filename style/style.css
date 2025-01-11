@@ -147,7 +147,7 @@ body{
     background-color: white;
     border-radius: 15px solid;
     padding: 48px 28px 48px 28px;
-    background-image: url("/assets/quote-bg.png");
+    background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: top left;  
     padding: 20px;
